@@ -1,59 +1,33 @@
-## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+The 'style.css' stylesheet includes a palette of colour variables:
 
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: html
+filename: default.css
+line_numbers: false
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+:root {
+  --primary: #bccad0;
+  --onprimary:#4f4e4e;
+  --secondary: #495054;
+  --onsecondary:#ffffff;
+  --tertiary:#747474;
+  --ontertiary: #ffffff;
+  --page:#ffffff;
+  --onpage:#000000;
+  --detail: #9ba8ae;
+  --detail2: #000000;
+}
 
---- /collapse ---
+--- /code ---
 
---- collapse ---
----
-title: Additional information for educators
----
+The **default.css** file in the starter project includes a colour palette with:
++ `page` and `onpage`: constrasting colours which are used for the background of your page,
++ `primary`, `secondary` and `tertiary`: these can be used whenever you want different coloured `<section>` or `<div>` elements,
++ `onprimary`, `onsecondary` and `ontertiary`: used for text to contrast with the primary, secondary and tertiary colours,
++ `detail` and `detail2`: colours which can be used to add coloured highlights. `detail2` is used for `<strong>` text and borders. 
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+The `page` colour scheme is used outside of the `<main>` content. 
+The `primary` colour scheme is used for content inside `<main>` unless you use a different class. 
