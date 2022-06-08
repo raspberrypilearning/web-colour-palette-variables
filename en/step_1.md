@@ -1,5 +1,7 @@
 
-The 'style.css' stylesheet includes a palette of colour variables:
+The 'default.css' stylesheet includes a palette of colour variables:
+
+`:root` means that these variables will be used for the whole page. 
 
 --- code ---
 ---
@@ -23,7 +25,7 @@ line_numbers: false
 
 --- /code ---
 
-The **default.css** file in the starter project includes a colour palette with:
+The colour palette variables are:
 + `page` and `onpage`: constrasting colours which are used for the background of your page,
 + `primary`, `secondary` and `tertiary`: these can be used whenever you want different coloured `<section>` or `<div>` elements,
 + `onprimary`, `onsecondary` and `ontertiary`: used for text to contrast with the primary, secondary and tertiary colours,
