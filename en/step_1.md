@@ -1,5 +1,5 @@
 
-The `default.css` stylesheet includes a palette of colour variables:
+The `default.css` style sheet includes a palette of colour variables:
 
 `:root` means that these variables are used for the whole page. 
 
