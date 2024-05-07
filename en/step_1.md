@@ -1,7 +1,7 @@
 
-The 'default.css' stylesheet includes a palette of colour variables:
+The `default.css` style sheet includes a palette of colour variables:
 
-`:root` means that these variables will be used for the whole page. 
+`:root` means that these variables are used for the whole page. 
 
 --- code ---
 ---
@@ -25,11 +25,11 @@ line_numbers: false
 
 --- /code ---
 
-The colour palette variables are:
-+ `page` and `onpage`: constrasting colours which are used for the background of your page,
-+ `primary`, `secondary` and `tertiary`: these can be used whenever you want different coloured `<section>` or `<div>` elements,
-+ `onprimary`, `onsecondary` and `ontertiary`: used for text to contrast with the primary, secondary and tertiary colours,
-+ `detail` and `detail2`: colours which can be used to add coloured highlights. `detail2` is used for `<strong>` text and borders. 
+The colour palette variables:
++ `page` and `onpage`: contrasting colours used for the background of your page.
++ `primary`, `secondary`, and `tertiary`: these can be used whenever you want different coloured `<section>` or `<div>` elements.
++ `onprimary`, `onsecondary`, and `ontertiary`: used for text to contrast with the primary, secondary, and tertiary colours.
++ `detail` and `detail2`: colours that can be used to add coloured highlights. `detail2` is used for `<strong>` text and borders. 
 
 The `page` colour scheme is used outside of the `<main>` content. 
 The `primary` colour scheme is used for content inside `<main>` unless you use a different class. 
