@@ -1,6 +1,6 @@
-The `default.css` style sheet includes a palette of colour variables:
+Het `default.css` style sheet bevat een palet met kleurvariabelen:
 
-`:root` means that these variables are used for the whole page.
+`:root` betekent dat deze variabelen voor de hele pagina worden gebruikt.
 
 ## --- code ---
 
@@ -24,12 +24,12 @@ line_numbers: false
 
 \--- /code ---
 
-The colour palette variables:
+De kleurenpalet variabelen:
 
-- `page` and `onpage`: contrasting colours used for the background of your page.
-- `primary`, `secondary`, and `tertiary`: these can be used whenever you want different coloured `<section>` or `<div>` elements.
-- `onprimary`, `onsecondary`, and `ontertiary`: used for text to contrast with the primary, secondary, and tertiary colours.
-- `detail` and `detail2`: colours that can be used to add coloured highlights. `detail2` is used for `<strong>` text and borders.
+- `page` and `onpage`: contrasterende kleuren die worden gebruikt voor de achtergrond van je pagina.
+- `primary`, `secondary`, en `tertiary`: deze kunnen worden gebruikt wanneer je een andere kleur wilt voor `<section>` of `<div>` elementen.
+- 'onprimary', 'onsecundary' en 'ontertiary': gebruikt voor tekst om te contrasteren met de primaire, secundaire en tertiaire kleuren.
+- `detail` en `detail2`: kleuren die kunnen worden gebruikt om gekleurde accenten toe te voegen. `detail2` wordt gebruikt voor `<strong>` teksten en randen.
 
-The `page` colour scheme is used outside of the `<main>` content.
-The `primary` colour scheme is used for content inside `<main>` unless you use a different class.
+Het `page` kleurenschema wordt gebruikt buiten de `<main>` inhoud.
+Het `primary` kleurenschema wordt gebruikt voor inhoud in `<main>` tenzij je een andere class gebruikt.
